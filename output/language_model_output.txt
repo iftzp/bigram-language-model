@@ -1,0 +1,8 @@
+Bigram Language Model
+
+Smoothing: True
+Use Log Probabilities: True
+Unigrams by decreasing probability can be found in unigram_probabilities.txt
+Bigrams by decreasing probability can be found in bigram_probabilities.txt
+Generated 100 sentences
+These can be found in generated_sentences.txt

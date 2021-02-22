@@ -1,0 +1,9 @@
+<s> The first Oscar was presented in 1929 . </s>
+<s> The first Oscar was presented in 1929 </s>
+<s> The first Oscar was awarded in 1929 . </s>
+<s> The Oscar was first awarded in 1929 . </s>
+<s> The first best Picture Arts and the . </s>
+<s> The party was at the Mayfair Hotel . </s>
+<s> The party was changed to the Mayfair . </s>
+<s> The party was at the Emil Jannings . </s>
+<s> The party was at the Hollywood Hotel . </s>
