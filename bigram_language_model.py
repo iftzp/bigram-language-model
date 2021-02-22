@@ -185,7 +185,7 @@ def main():
     unigram_file_output.append('-' * 35)
     unigram_file_output.append('Unigrams and their probabilities:')
     unigram_file_output.append('-' * 35 + '\n')
-    unigram_probabilities = dict(sorted(unigram_probabilities.items(), key=lambda item: item[1]))
+    unigram_probabilities = dict(sorted(unigram_probabilities.items(), key=lambda item: item[1], reverse=True))
     for unigram in unigram_probabilities:
         unigram_file_output.append(unigram + ' has probability ' + str(unigram_probabilities[unigram]))
 
@@ -193,7 +193,7 @@ def main():
     bigram_file_output.append('-' * 35)
     bigram_file_output.append('Bigrams and their probabilities:')
     bigram_file_output.append('-' * 35 + '\n')
-    bigram_probabilities = dict(sorted(bigram_probabilities.items(), key=lambda item: item[1]))
+    bigram_probabilities = dict(sorted(bigram_probabilities.items(), key=lambda item: item[1], reverse=True))
     for bigram in bigram_probabilities:
         bigram_file_output.append(str(bigram) + ' has probability ' + str(bigram_probabilities[bigram]))
 
