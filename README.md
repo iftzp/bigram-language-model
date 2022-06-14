@@ -1,4 +1,4 @@
-# CA4023 | Assignment 1 | Bigram Language Model
+# Bigram Language Model
 
 This is a bigram language model, which can:
 - train a model on a given corpus of sentences
@@ -9,8 +9,8 @@ This is a bigram language model, which can:
 
 To run the model:
 
-> git clone https://gitlab.computing.dcu.ie/fitzpai3/ca4023-assignment-1  
-> cd ca4023-assignment-1  
+> git clone https://github.com/iftzp/bigram-language-model.git  
+> cd bigram-language-model  
 > python3 bigram_language_model.py wikiOscars.txt wikiOscars_test.txt  
 
 - Providing the second file is optional
